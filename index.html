@@ -21,8 +21,16 @@
             <a href="#certificates">Certificates</a>
             <a href="#experience">Experience</a>
             <a href="#contact">Contact</a>
+              <a href="#" class="resume-link" onclick="document.getElementById('resume-modal').style.display='flex'; return false;">Resume</a>
         </nav>
     </header>
+    
+    <div class="resume-modal" id="resume-modal">
+    <div class="resume-modal-content">
+        <button class="resume-close" onclick="document.getElementById('resume-modal').style.display='none'">&times;</button>
+        <iframe src="Resume.pdf" width="100%" height="100%"></iframe>
+    </div>
+</div>
 
 <!------------ABOUT SECTION--------------ABOUT SECTION--------------ABOUT SECTION--------------ABOUT SECTION--------------ABOUT SECTION------------>
     <section class="about" id="about">
@@ -352,4 +360,5 @@
 <!---------------------------------SCRIPT NI SIYA HA. KONEKSYONISM SA JAVASCRIPT SELF HA--------------------------------->
     <script src="script.js"></script>
 </body>
+
 </html>
