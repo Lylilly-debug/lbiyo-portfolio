@@ -483,14 +483,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 /*-------MENU--------------MENU--------------MENU--------------MENU--------------MENU--------------MENU--------------MENU-------*/
-document.addEventListener('DOMContentLoaded', function () {
-    const menuIcon = document.getElementById('menu-icon');
-    const navbar = document.querySelector('.navbar');
+const menuIcon = document.getElementById('menu-icon');
+const navbar = document.querySelector('.navbar');
 
-    if (menuIcon && navbar) {
-        menuIcon.addEventListener('click', function () {
-            menuIcon.classList.toggle('bx-x');
-            navbar.classList.toggle('active');
-        });
-    }
+menuIcon.addEventListener('click', () => {
+    navbar.classList.toggle('active');
+});
+
+document.querySelectorAll('.navbar a').forEach(link => {
+    link.addEventListener('click', () => {
+        navbar.classList.remove('active');
+    });
 });
