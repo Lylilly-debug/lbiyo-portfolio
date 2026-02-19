@@ -92,7 +92,7 @@ span{
 
 .resume-link:hover{
   background: var(--main-color);
-  color: #080808 !important;
+  color: #white !important;
   border-color: var(--main-color);
 }
 
@@ -2105,5 +2105,6 @@ section{
 ::-webkit-scrollbar-track{
   background-color: var(--bg-color);
 }
+
 
 
