@@ -457,7 +457,6 @@ section{
 /*-------PROJECT SECTION--------------PROJECT SECTION--------------PROJECT SECTION--------------PROJECT SECTION--------------PROJECT SECTION-------*/ 
 .projects {
     background: #000000;
-    background: linear-gradient(182deg, rgba(0, 0, 0, 1) 1%, rgba(157, 84, 209, 1) 48%, rgb(187, 99, 168) 78%);
     padding: 80px 10px;
 }
 
