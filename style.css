@@ -839,14 +839,14 @@ section{
 
 .certificates {
     background: #000000;
-    padding: 90px 10px;
+    padding: 90px 30px;
     min-height: 100vh;
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 10 30px;
 }
 
 .section-title {
